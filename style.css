@@ -594,27 +594,7 @@ footer {
     color: white;
 }
 
-/* SHAPES 
-
-shapes on first row 
-heifght = 15vh
-
-shapes on the 2nd row 
-height = 50hv
-
-shapes on the thrid row 
-height = 80vh 
-
-shapes in the first column 
-width = 5vw 
-
-shapes in the second column 
-width = 50vw 
-
-shapes in the third column 
-width = 80vw 
-
-*/
+/* SHAPES */
 
 .shape {
     position: fixed;
