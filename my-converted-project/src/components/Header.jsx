@@ -1,4 +1,5 @@
 import React from 'react';
+import resumePdf from "../assets/Jack-Muoio-Resume.pdf";
 
 export default function Header({ toggleModal }) {
   return (
@@ -29,7 +30,7 @@ export default function Header({ toggleModal }) {
           >
             <i className="fa-brands fa-github"></i>
           </a>
-          <a href="#" className="social__link click">
+          <a href={resumePdf} target="_blank" rel="noopener noreferrer" className="social__link click">
             <i className="fa-solid fa-file-pdf"></i>
           </a>
         </div>

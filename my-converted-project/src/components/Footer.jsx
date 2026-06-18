@@ -1,6 +1,6 @@
 import React from 'react';
 import footerLogo from '../assets/Adobe Express - file.png';
-import resumePdf from '../assets/David Bragg Resume.pdf';
+import resumePdf from '../assets/Jack-Muoio-Resume.pdf';
 
 export default function Footer({ toggleModal }) {
   return (

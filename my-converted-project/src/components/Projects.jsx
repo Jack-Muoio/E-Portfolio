@@ -3,6 +3,8 @@ import Project from '../UI/Project';
 import screenFinderPic from '../assets/Screen-Finder-Picture.png';
 import roomifyPic from '../assets/Roomify-Picture.png';
 import libraryPic from '../assets/Library-Picture.png';
+import agencyPic from '../assets/Agency-AI-Picture.png';
+
 
 export default function Projects() {
   const projectData = [
@@ -29,6 +31,14 @@ export default function Projects() {
       description: "Library is a dynamic e-commerce bookstore interface built with React. The platform utilizes a structured mock API array to drive complex data mapping, real-time cart mechanics, dynamic price tracking, and a fully responsive layout. The primary engineering focus was placed on breaking down the product catalog into a reusable component lifecycle and managing local state synchronization across nested page routes.",
       githubLink: "https://github.com/Jack-Muoio/Library-React",
       liveLink: "https://library-react-weld.vercel.app/"
+    },
+    {
+      title: "Agency AI",
+      img: agencyPic,
+      tech: "HTML, CSS, JavaScript, React",
+      description: "Agency AI is a responsive web application adapted from a GreatStack architecture pattern built with clean, semantic HTML5 and modern CSS3 layouts. It demonstrates foundational engineering practices, utilizing vanilla JavaScript to manage UI interactivity, clean asset path structures, and a smooth production deployment workflow through Git and GitHub.",
+      githubLink: "https://github.com/Jack-Muoio/agency-ai",
+      liveLink: "https://agency-ai-beryl.vercel.app/"
     }
   ];
 
